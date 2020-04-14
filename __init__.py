@@ -9,7 +9,7 @@ class HereComesTheSun(MycroftSkill):
     def handle_sun_the_comes_here(self, message):
         # self.speak_dialog('sun.the.comes.here')
         self.speak_dialog("<speak><prosody rate='10%'>" + "this is a test" + "</prosody></speak>")
-        play_mp3('/home/humaira/mycroft-skill/song.mp3')
+        #play_mp3('/home/humaira/mycroft-skill/song.mp3')
 
 
 def create_skill():
