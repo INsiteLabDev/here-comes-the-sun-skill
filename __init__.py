@@ -8,7 +8,8 @@ class HereComesTheSun(MycroftSkill):
     @intent_file_handler('sun.the.comes.here.intent')
     def handle_sun_the_comes_here(self, message):
         # self.speak_dialog('sun.the.comes.here')
-        self.speak_dialog("<speak><prosody rate='10%'>" + "this is a test" + "</prosody></speak>")
+        self.speak_dialog('this is a test')
+        # self.speak_dialog("<speak><prosody rate='10%'>" + "this is a test" + "</prosody></speak>")
         #play_mp3('/home/humaira/mycroft-skill/song.mp3')
 
 
